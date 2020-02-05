@@ -7,13 +7,13 @@ html, body {
     transition: background-color 2s;
     color: #333;
     line-height: 100%;
-    background: #207ce5;
+    background: #5477A2;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: #207ce5;
+    background: #5477A2;
     _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#207ce5', endColorstr='#499bea', GradientType=0);
 }
 
@@ -113,5 +113,5 @@ body::-webkit-scrollbar-thumb {
 }
 
 .popup-div {
-    background-color: #207ce5;
+    background-color: #5477A2;
 }

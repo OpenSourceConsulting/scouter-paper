@@ -52,6 +52,7 @@
 
 .box .title > div > div.title-text {
     padding-left: 2px;
+    font-weight: bold;
 }
 
 .box .title > div > div.title-text.no-title {

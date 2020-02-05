@@ -50,9 +50,14 @@ const configState = {
         {
             protocol: (window.location.protocol.replace(":", "").toLowerCase() === "http" || window.location.protocol.replace(":", "").toLowerCase() === "https") ? window.location.protocol.replace(":", "").toLowerCase() : "http",
             address: window.location.hostname ? window.location.hostname : "127.0.0.1",
-            port: 6188,
+            port: 6180,
             authentification :"bearer",
             default : true
+            // protocol: "http",
+            // address: '192.168.10.136',
+            // port: 6180,
+            // authentification :"bearer",
+            // default : true
         }
     ],
     interval: 2000,
@@ -265,7 +270,6 @@ const configState = {
     },
     fonts : [
         {val : "NanumSquare",name : "NanumSquare", generic: "sans-serif", type : "display"},
-        {val : "Bungee",name : "Bungee", generic: "cursive", type : "display"},
         {val : "Righteous",name : "Righteous", generic : "cursive", type : "display"},
         {val : "Mina",name : "Mina", generic : "sans-serif", type : "sans-serif"},
         {val : "Nanum Gothic",name : "Nanum Gothic", generic : "sans-serif", type : "sans-serif"},
@@ -276,12 +280,12 @@ const configState = {
         {val : "Kavivanar",name : "Kavivanar", generic : "cursive", type : "Handwriting"},
         {val : "Handlee",name : "Handlee", generic : "cursive", type : "Handwriting"}],
     fontSetting : {
-        basic : "NanumSquare",
-        menu : "Bungee",
-        axis : "Bungee",
-        axisFontSize : "8px",
-        tooltip : "NanumSquare",
-        profiler : "NanumSquare"
+        basic : "Noto Sans",
+        menu : "Noto Sans",
+        axis : "NanumSquare",
+        axisFontSize : "9px",
+        tooltip : "Noto Sans",
+        profiler : "Noto Sans"
     },
     others : {
         checkUpdate : "Y",
